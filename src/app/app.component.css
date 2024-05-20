@@ -28,7 +28,8 @@ body {
 /* Estilos para cada panel de control */
 .control-panel {
   margin-bottom: 20px;
-  background-color: rgba(255, 255, 255, 0.8); /* Cambia la opacidad del fondo para que sea semi-transparente */
+  background-color: rgba(255, 255, 255, 0.8); 
+/* Fondo semi-transparente */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
