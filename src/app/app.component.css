@@ -17,7 +17,7 @@ body {
     background-size: cover;
 }
 
-/* Estilos para el contenedor principal */
+/* Contenedor principal */
 .container {
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@ body {
   margin-top: 20px;
 }
 
-/* Estilos para cada panel de control */
+/*cada panel de control */
 .control-panel {
   margin-bottom: 20px;
   background-color: rgba(255, 255, 255, 0.8); 
@@ -37,14 +37,14 @@ body {
   max-width: 600px;
 }
 
-/* Estilos para los títulos de los paneles */
+/* títulos de los paneles */
 .control-panel h2 {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 20px;
 }
 
-/* Estilos para el switch */
+/*switch */
 .switch {
   position: relative;
   display: inline-block;
@@ -98,7 +98,7 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Estilos para los botones de temperatura */
+/* botones de temperatura */
 .temperature-controls {
   display: flex;
   align-items: center;
